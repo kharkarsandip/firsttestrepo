@@ -1,11 +1,14 @@
 #!/bin/bash
 
+read -p "enter foldername: " foldername
+read -p "enter start: " a
+read -p "enter end: " b
 
 
-for (( i=1; i>=4; i++ ))
+for (( $foldername=$a; $foldername>=$b; $foldername++ ))
 do 
 
-echo i
+echo $foldername$foldernumber
 
 done
 

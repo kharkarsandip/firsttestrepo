@@ -12,3 +12,5 @@ echo $foldername$i
 
 done
 
+
+#comment added...

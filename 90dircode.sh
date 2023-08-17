@@ -5,10 +5,10 @@ read -p "enter start: " a
 read -p "enter end: " b
 
 
-for (( i=$a; i<=$b; i++ ))
+for (( $foldername=$a; $foldername>=$b; $foldername++ ))
 do 
 
-echo $foldername$i
+echo $foldername$foldernumber
 
 done
 
